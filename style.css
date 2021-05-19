@@ -3,6 +3,7 @@
     flex-direction: row; /* This is for direction (column or row) => row-reverse*/
     /*flex-wrap: wrap; Auto responsive. (wrap-reverse) */
    /*justify-content: flex-start; flex-end, space-around,space-between,center =>it is work horizently */
+   flex-wrap: wrap;
 
     align-items: center;/*stretch,start,end=>it is work vartically*/
     background: green;
@@ -17,7 +18,8 @@
     padding: 20px;
     color: #fff;
     margin: 10px;
-    width: 100px;
+    width: 100px;/*when we use flex-basis,dont to call min-width*/ 
     flex-grow: 1;/*equally fixed place*/
+    flex-shrink: 1;
 
 }

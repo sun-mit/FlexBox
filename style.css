@@ -1,11 +1,12 @@
+/*Flex-box only works on horiz or vartically*/
 .flex-container {
     display: flex;
     flex-direction: row; /* This is for direction (column or row) => row-reverse*/
-    /*flex-wrap: wrap; Auto responsive. (wrap-reverse) */
-   /*justify-content: flex-start; flex-end, space-around,space-between,center =>it is work horizently */
-   flex-wrap: wrap;
+    flex-wrap: wrap; /*Auto responsive. (wrap-reverse) */
+    justify-content: flex-start; /*flex-end, space-around,space-between,center =>it is work horizently */
+    flex-wrap: wrap;
 
-    align-items: center;/*stretch,start,end=>it is work vartically*/
+    align-items: center;/*stretch,start,baseline,end=>it is work vartically*/
     background: green;
     padding: 10px;
     height: 400px;

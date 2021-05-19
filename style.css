@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-direction: row; /* This is for direction (column or row) => row-reverse*/
+    /*flex-wrap: wrap; Auto responsive. (wrap-reverse) */
+   /*justify-content: flex-start; flex-end, space-around,space-between,center =>it is work horizently */
+
+    align-items: center;/*stretch,start,end=>it is work vartically*/
+    background: green;
+    padding: 10px;
+    height: 400px;
+
+
+}
+.flex-item{
+    border: 1px solid #fff;
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    width: 100px;
+
+}

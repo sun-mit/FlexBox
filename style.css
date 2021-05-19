@@ -21,5 +21,6 @@
     width: 100px;/*when we use flex-basis,dont to call min-width*/ 
     flex-grow: 1;/*equally fixed place*/
     flex-shrink: 1;
+    flex: 1 1 300px;/*3 in 1 => grow,shrink,basis*/
 
 }
